@@ -25,7 +25,7 @@ const getRefreshToken = async () => {
 
 export const customAxios = (): AxiosInstance => {
   const axiosInstance = axios.create({
-    baseURL: 'https://dev.barcoder.co.kr',
+    baseURL: 'https://serverdomain.com',
   });
 
   axiosInstance.interceptors.request.use(
